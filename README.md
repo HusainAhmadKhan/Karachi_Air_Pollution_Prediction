@@ -8,39 +8,39 @@ This project aims to analyze air quality data collected from Aga Khan University
 
 ## Installation Steps
 
-1.  **Clone the Repository**
+1.  **Open the Colab Link:**
     ```bash
-    git clone https://github.com/HusainAhmadKhan/Karachi_Air_Pollution_Prediction.git
-    cd Karachi_Air_Pollution_Prediction
+    https://colab.research.ug/1pOaH5ySZGrLICUe4aH5UD74VSPLCIS74?usp=sharing
     ```
 
-2.  **Set up a Virtual Environment (Recommended)**
+2.  **Upload the Dataset:**
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    Download Karachi Aga khan University Air Quality.xlsx from the GitHub repository
+
+    In Colab, click on the folder icon on the left sidebar
+
+    Click the upload button and select the Excel file
     ```
 
-3.  **Install Required Libraries**
+3.  **Run All Cells:**
     ```bash
-    pip install -r requirements.txt
-    ```
-    > **Note:** A `requirements.txt` file is not present in the repository. Please manually install the libraries listed below.
+    Click Runtime → Run all from the top menu
 
+    All libraries (pandas, matplotlib, scikit-learn, etc.) come pre-installed in Colab
+    ```
 ## Required Libraries
 - Python 3.x
 - Pandas
-- NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
 - ipywidgets (for the interactive interface)
-- Jupyter Notebook or Google Colab (for running the notebook)
+- Google Colab (for running the notebook)
 
 ## Instructions on How to Run the Project
 
 1.  **Open the Notebook**
-    - You can run the project locally using Jupyter Notebook or JupyterLab.
-    - Alternatively, you can open the notebook directly in Google Colab using the provided link.
+    - You can open the notebook directly in Google Colab using the provided link.
 
 2.  **Load the Dataset**
     - The dataset file `Karachi Aga khan University Air Quality.xlsx` is included in the repository. Ensure it is in the same directory as the notebook.
@@ -78,18 +78,10 @@ Karachi_Air_Pollution_Prediction/
 - **Humidity** has a moderate positive relationship with pollution.
 - **Random Forest** outperformed Linear Regression and Decision Tree models due to its ability to capture complex, non-linear relationships.
 
-## Future Improvements
-- Incorporate additional weather data (wind speed, rainfall).
-- Use deep learning models like LSTM for time-series forecasting.
-- Collect and integrate data from multiple locations across Karachi.
-- Perform hyperparameter tuning for better accuracy.
-- Deploy the model as a real-time web application.
-
 ## Tools & Technologies
 - **Programming Language:** Python
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, ipywidgets
-- **Environment:** Google Colab, Jupyter Notebook
-
+- **Libraries:** Pandas, Matplotlib, Seaborn, Scikit-learn, ipywidgets
+- **Environment:** Google Colab
 ## GitHub Repository
 [https://github.com/HusainAhmadKhan/Karachi_Air_Pollution_Prediction](https://github.com/HusainAhmadKhan/Karachi_Air_Pollution_Prediction)
 
